@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+html {
+	scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+	margin: 0;
+	font-family: 'Roboto';
+	color: #FFE3DE;
+	font-weight: 700;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #0A043C;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+	margin: 0;
+	padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@keyframes emerge {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
-.App-link {
-  color: #61dafb;
+@keyframes appearByBottom {
+	0% {
+		transform: translate(0, 200px);
+		opacity: 0;
+		text-shadow: 0 0 0 #FFE3DE;
+	}
+	40% {
+		text-shadow: 0 0 10px #FFE3DE;
+	}
+	100% {
+		transform: translate(0, 0);
+		opacity: 1;
+		text-shadow: 0 0 0 #FFE3DE;
+	}
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+@keyframes movement {
+	from {
+		transform: translate(0, 5px);
+	}
+	to {
+		transform: translate(0, 0);
+	}
+}
+
+@keyframes appearByLeft {
+	0% {
+		transform: translate(-200px, 0);
+		opacity: 0;
+		text-shadow: 0 0 0 #FFE3DE;
+	}
+	40% {
+		text-shadow: 0 0 10px #FFE3DE;
+	}
+	100% {
+		transform: translate(0, 0);
+		opacity: 1;
+		text-shadow: 0 0 0 #FFE3DE;
+	}
+}
+
+@keyframes appearByRight {
+	0% {
+		transform: translate(200px, 0);
+		opacity: 0;
+		text-shadow: 0 0 0 #FFE3DE;
+	}
+	40% {
+		text-shadow: 0 0 10px #FFE3DE;
+	}
+	100% {
+		transform: translate(0, 0);
+		opacity: 1;
+		text-shadow: 0 0 0 #FFE3DE;
+	}
 }
