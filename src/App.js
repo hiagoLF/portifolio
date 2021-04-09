@@ -14,10 +14,12 @@ import Services from './Pages/Services';
 import PageProvider from './Contexts/PageController';
 
 
+
+
+
 function App() {
   return (
     <PageProvider>
-      {/* <NextPageButton /> */}
 
       <Header />
 
@@ -29,30 +31,45 @@ function App() {
         <Spacer />
         <About />
       </div>
+ 
 
       <div id='Serviços'>
         <Spacer />
         <Services />
       </div>
 
+      
       <div id='Projetos'>
         <Spacer />
         <Projects />
       </div>
 
+
       <div id='Contato'>
-        {/* <Spacer /> */}
         <Contact />
       </div>
-
+ 
       <Footer />
+
+
     </PageProvider>
   );
 }
 
 const Spacer = styled.div`
   width: 100%;
-  height: 45px;
+  height: 40px;
+
+  @media(max-width: 394px){
+      height: 80px;
+  }
+  @media(max-height: 630px){
+      height: 70px;
+  }
+  @media(max-height: 378px){
+      height: 50px;
+  }
+
 `;
 
 export default App;

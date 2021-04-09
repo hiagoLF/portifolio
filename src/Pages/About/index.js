@@ -12,12 +12,12 @@ import {
     ImageContainer,
     ProfileImage,
 } from './styles';
+import about from '../../data/about.json'
 
 // Image Modules
 import profileImage from '../../images/profile.png'
 
-const aboutTitle = 'Hiago Leão Ferreira'
-const aboutText = 'Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem.'
+const {aboutTitle, aboutText} = about
 
 const About = () => {
     return (

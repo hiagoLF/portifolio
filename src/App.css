@@ -82,3 +82,13 @@ body {
 		text-shadow: 0 0 0 #FFE3DE;
 	}
 }
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(180deg);
+	}
+}
+

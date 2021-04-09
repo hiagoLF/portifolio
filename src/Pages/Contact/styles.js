@@ -9,10 +9,14 @@ export const Container = styled.div`
     width: 100%;
     height: 100vh;
     background-image: url(${backgroundImage});
-    background-size: 100vw 100vh;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media(max-height: 651px){
+        height: 651px;
+    }
 `;
 
 export const ContactBox = styled.div`
@@ -23,6 +27,15 @@ export const ContactBox = styled.div`
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+
+    /* background-color: #453; */
+
+    @media(max-width: 1022px){
+        width: 97%;
+    }
+    @media(max-width: 342px){
+        height: 400px;
+    }
 `;
 
 export const ContactHeaderText = styled(ScrollAnimation).attrs({
@@ -40,11 +53,21 @@ export const ContactInvitation = styled.div`
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+
+    /* background-color: #457; */
+
 `;
 
 export const InvitationParagraphText = styled.p`
     font-size: 36px;
     color: #A4FFE3;
+
+    @media(max-width: 849px){
+        font-size: 28px;
+    }
+    @media(max-width: 657px){
+        font-size: 25px;
+    }
 `;
 
 export const ContactInformations = styled.div`
@@ -53,6 +76,19 @@ export const ContactInformations = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    /* background-color: #454; */
+
+    @media(max-width: 700px){
+        width: 100%;
+    }
+
+    @media(max-width: 390px){
+        height: 130px;
+    }
+    @media(max-width: 342px){
+        height: 100px;
+    }
 `;
 
 export const WatsappBox = styled.div`
@@ -82,11 +118,24 @@ export const InstagramBox = styled.div`
 `;
 
 export const Icon = styled.img`
-    width: 80px;
     height: 80px;
     margin: 0 10px;
+
+    @media(max-width: 390px){
+        height: 60px;
+    }
+    @media(max-width: 342px){
+        height: 40px;
+    }
 `;
 
 export const ContactInfoText = styled.p`
     font-size: 35px;
+
+    @media(max-width: 390px){
+        font-size: 30px;
+    }
+    @media(max-width: 342px){
+        font-size: 25px;
+    }
 `;

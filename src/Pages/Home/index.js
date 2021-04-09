@@ -10,19 +10,17 @@ import {
     DescriptionContainer,
     DescriptionText,
 } from './styles';
+import home from '../../data/home.json'
 
-const descriptions = [
-    'Aplicativos Android e IOS ',
-    'Sites para Internet',
-    'Programas Windows',
-    'Serviços Back-End',
-]
+const {title, descriptions} = home
+
+
 
 function Home() {
     return (
         <Container>
             <TextContainer>
-                <HomeTitle>Hiago Leão Ferreira</HomeTitle>
+                <HomeTitle>{title}</HomeTitle>
                 <DescriptionContainer>
                     <Typist
                         cursor={{

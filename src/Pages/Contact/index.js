@@ -15,19 +15,11 @@ import {
     Icon,
     ContactInfoText
 } from './styles';
+import {contactInvitation, watsappNum, instagramName} from '../../data/contact.json'
 
 // Image Modules
 import watsappIcon from '../../images/watsapp-icon.png'
 import instagramIcon from '../../images/instagram-icon.png'
-
-const contactInvitation = [
-    "Gostou do meu trabalho e quer conversar comigo?",
-    "Me envie uma mensagem!"
-]
-
-const watsappNum = "(77) 98865-5327"
-
-const instagramName = "@hiagoleaof"
 
 function Contact() {
 

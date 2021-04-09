@@ -5,6 +5,14 @@ export const Container = styled.div`
     width: 100%;
     height: 100vh;
     /* background-color: #642; */
+
+    @media(max-height: 560px){
+        height: auto;
+    }
+
+    @media(max-width: 739px){
+        height: auto;
+    }
 `;
 
 export const ServicesComponents = styled.div`
@@ -13,6 +21,10 @@ export const ServicesComponents = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media(max-height: 560px){
+        margin-top: 40px;
+    }
 `;
 
 export const ServicesHeaderText = styled(ScrollAnimation).attrs({
@@ -24,6 +36,10 @@ export const ServicesHeaderText = styled(ScrollAnimation).attrs({
 })`
     font-size: 50px;
     margin-bottom: 15px;
+
+    @media(max-width: 739px){
+        margin-top: 40px;
+    }
 `;
 
 export const ServicesCards = styled.div`
@@ -31,6 +47,12 @@ export const ServicesCards = styled.div`
     justify-content: center;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
+
+    @media(max-width: 739px){
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 `;
 
 export const ServiceCardContainer = styled(ScrollAnimation).attrs({
@@ -52,11 +74,19 @@ export const ServiceCardContainer = styled(ScrollAnimation).attrs({
     &:hover{
         box-shadow: 0 0 10px #ABE2F8;
     }
+
+    @media(max-width: 739px){
+        width: 95%;
+    }
 `;
 
 export const ServiceTitleText = styled.p`
     font-size: 25px;
     text-align: center;
+
+    @media(max-width: 298px){
+        font-size: 20px;
+    }
 `;
 
 export const ServiceImages = styled.div`

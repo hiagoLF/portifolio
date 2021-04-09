@@ -14,6 +14,10 @@ export const Container = styled(ScrollAnimation).attrs({
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media(max-width: 441px){
+        display: none;
+    }
 `;
 
 export const Circle = styled.div`
@@ -50,4 +54,13 @@ export const HorizontalLine = styled.div`
     height: 5px;
     background-color: #FFE3DE;
     opacity: ${({appear = true}) => appear ? 1 : 0};
+
+    @media(max-width: 788px){
+        width: 30px;
+    }
+    @media(max-width: 628px){
+        width: 8px;
+    }
+
+    
 `;

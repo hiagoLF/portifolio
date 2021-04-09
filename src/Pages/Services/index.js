@@ -12,41 +12,7 @@ import {
     ServiceDescription,
 } from './styles';
 import {usePageContext} from '../../Contexts/PageController'
-
-const services = [
-    {
-        "title": "Aplicativos para Celular",
-        "imagesTitle": [
-            "android.png",
-            "ios.png",
-        ],
-        "description": "Desenvolvimento de aplicativos móveis compatíves tanto com os sistemas android quanto ios."
-    },
-    {
-        "title": "Sites para Internet",
-        "imagesTitle": [
-            "web.png",
-            "chrome.png",
-        ],
-        "description": "Desenvolvimento de páginas web responsivas com performace otimizada e compatível com os principais navegadores da atualidade"
-    },
-    {
-        "title": "Programas Desktop",
-        "imagesTitle": [
-            "windows.png",
-            "mac.png",
-            "linux.png",
-        ],
-        "description": "Desenvolvimento de programas para computador compatíveis com Windows, Mac e Linux."
-    },
-    {
-        "title": "Serviços Back-End",
-        "imagesTitle": [
-            "server.png",
-        ],
-        "description": "Desenvolvimento de servidores remotos para processar e armazenar os dados de suas aplicações"
-    },
-]
+import { services } from '../../data/service.json'
 
 const completeServices = services.map((service) => {
     const { imagesTitle } = service
