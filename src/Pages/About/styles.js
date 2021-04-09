@@ -11,9 +11,11 @@ export const Container = styled.div`
 
     /* background-color: #349; */
 
-    @media(max-width: 702px){
+    @media(max-height: 702px){
         height: auto;
     }
+
+
 
 `;
 
@@ -32,15 +34,10 @@ export const AboutItens = styled.div`
     }
     
     @media(max-width: 854px){
-        height: 500px;
-    }
-
-    @media(max-width: 702px){
         height: auto;
         flex-direction: column;
+        margin: 40px 0;
     }
-
-
 
 `;
 

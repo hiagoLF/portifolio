@@ -58,7 +58,7 @@ function App() {
 
 const Spacer = styled.div`
   width: 100%;
-  height: 40px;
+  height: 90px;
 
   @media(max-width: 394px){
       height: 80px;
