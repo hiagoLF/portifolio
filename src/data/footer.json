@@ -9,11 +9,12 @@
                 },
                 {
                     "itemTitle": "Instagram",
-                    "value": "@hiagoleaof"
+                    "value": "@hiagoleaof",
+                    "link": "https://www.instagram.com/hiagoleaof/"
                 },
                 {
                     "itemTitle": "Gmail",
-                    "value": "contato-hiagodev@gmail.com"
+                    "value": "hiagolf@gmail.com"
                 }
             ]
         },
@@ -24,11 +25,13 @@
             "items": [
                 {
                     "itemTitle": "GitHub",
-                    "value": "HiagoLF"
+                    "value": "HiagoLF",
+                    "link": "https://github.com/hiagoLF"
                 },
                 {
                     "itemTitle": "LinkedIn",
-                    "value": "Hiago Leão Ferreira"
+                    "value": "Hiago Leão Ferreira",
+                    "link": "https://br.linkedin.com/in/hiago-le%C3%A3o-ferreira-29aa21164"
                 }
             ]
         },

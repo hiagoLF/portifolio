@@ -21,22 +21,20 @@ const {aboutTitle, aboutText} = about
 
 const About = () => {
     return (
-        <Container>
-            <AboutItens>
-                <AboutTextContainer>
-                    <AboutHeaderText>Sobre</AboutHeaderText>
-                    <AboutTitleText>{aboutTitle}</AboutTitleText>
-                    <AboutText>{aboutText}</AboutText>
-                </AboutTextContainer>
+      <Container>
+        <AboutItens>
+          <AboutTextContainer>
+            <AboutHeaderText>Sobre</AboutHeaderText>
+            <AboutTitleText>{aboutTitle}</AboutTitleText>
+            <AboutText>{aboutText}</AboutText>
+          </AboutTextContainer>
 
-                <ImageContainer>
-                    <ProfileImage
-                        src={profileImage}
-                    />
-                </ImageContainer>
-            </AboutItens>
-        </Container>
-    )
+          <ImageContainer>
+            <ProfileImage src={profileImage} />
+          </ImageContainer>
+        </AboutItens>
+      </Container>
+    );
 }
 
 export default About;
