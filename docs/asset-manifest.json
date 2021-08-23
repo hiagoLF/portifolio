@@ -1,30 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.05f62fba.chunk.css",
-    "main.js": "/static/js/main.d3bc03a4.chunk.js",
-    "main.js.map": "/static/js/main.d3bc03a4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.03ebf20a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.03ebf20a.js.map",
-    "static/js/2.a166f0ef.chunk.js": "/static/js/2.a166f0ef.chunk.js",
-    "static/js/2.a166f0ef.chunk.js.map": "/static/js/2.a166f0ef.chunk.js.map",
-    "static/js/3.2a69262b.chunk.js": "/static/js/3.2a69262b.chunk.js",
-    "static/js/3.2a69262b.chunk.js.map": "/static/js/3.2a69262b.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.05f62fba.chunk.css.map": "/static/css/main.05f62fba.chunk.css.map",
-    "static/js/2.a166f0ef.chunk.js.LICENSE.txt": "/static/js/2.a166f0ef.chunk.js.LICENSE.txt",
-    "static/media/background-contact.e489ac49.png": "/static/media/background-contact.e489ac49.png",
-    "static/media/background-home.d18c174f.png": "/static/media/background-home.d18c174f.png",
-    "static/media/clinica-vida-saude.784fb7f4.png": "/static/media/clinica-vida-saude.784fb7f4.png",
-    "static/media/close.d35699b1.svg": "/static/media/close.d35699b1.svg",
-    "static/media/hamburguer-menu.a836ba86.svg": "/static/media/hamburguer-menu.a836ba86.svg",
-    "static/media/ieq-app.effebd90.png": "/static/media/ieq-app.effebd90.png",
-    "static/media/next.3786d2f8.svg": "/static/media/next.3786d2f8.svg",
-    "static/media/profile.a94a44b8.png": "/static/media/profile.a94a44b8.png"
+    "main.css": "/portifolio/static/css/main.05f62fba.chunk.css",
+    "main.js": "/portifolio/static/js/main.543cc923.chunk.js",
+    "main.js.map": "/portifolio/static/js/main.543cc923.chunk.js.map",
+    "runtime-main.js": "/portifolio/static/js/runtime-main.bf9431f5.js",
+    "runtime-main.js.map": "/portifolio/static/js/runtime-main.bf9431f5.js.map",
+    "static/js/2.c4013b1c.chunk.js": "/portifolio/static/js/2.c4013b1c.chunk.js",
+    "static/js/2.c4013b1c.chunk.js.map": "/portifolio/static/js/2.c4013b1c.chunk.js.map",
+    "static/js/3.2a69262b.chunk.js": "/portifolio/static/js/3.2a69262b.chunk.js",
+    "static/js/3.2a69262b.chunk.js.map": "/portifolio/static/js/3.2a69262b.chunk.js.map",
+    "index.html": "/portifolio/index.html",
+    "static/css/main.05f62fba.chunk.css.map": "/portifolio/static/css/main.05f62fba.chunk.css.map",
+    "static/js/2.c4013b1c.chunk.js.LICENSE.txt": "/portifolio/static/js/2.c4013b1c.chunk.js.LICENSE.txt",
+    "static/media/background-contact.e489ac49.png": "/portifolio/static/media/background-contact.e489ac49.png",
+    "static/media/background-home.d18c174f.png": "/portifolio/static/media/background-home.d18c174f.png",
+    "static/media/clinica-vida-saude.784fb7f4.png": "/portifolio/static/media/clinica-vida-saude.784fb7f4.png",
+    "static/media/close.d35699b1.svg": "/portifolio/static/media/close.d35699b1.svg",
+    "static/media/hamburguer-menu.a836ba86.svg": "/portifolio/static/media/hamburguer-menu.a836ba86.svg",
+    "static/media/ieq-app.effebd90.png": "/portifolio/static/media/ieq-app.effebd90.png",
+    "static/media/profile.a94a44b8.png": "/portifolio/static/media/profile.a94a44b8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.03ebf20a.js",
-    "static/js/2.a166f0ef.chunk.js",
+    "static/js/runtime-main.bf9431f5.js",
+    "static/js/2.c4013b1c.chunk.js",
     "static/css/main.05f62fba.chunk.css",
-    "static/js/main.d3bc03a4.chunk.js"
+    "static/js/main.543cc923.chunk.js"
   ]
 }
